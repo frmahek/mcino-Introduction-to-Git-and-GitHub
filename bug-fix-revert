@@ -1,0 +1,15 @@
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/5708",
+  "id": 123456789,
+  "state": "closed",
+  "title": "Create bug-fix-revert",
+  "user": { "login": "frmahek" },
+  "head": {
+    "label": "frmahek:patch-2",
+    "repo": { "full_name": "frmahek/mcino-Introduction-to-Git-and-GitHub" }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main"
+  }
+}
