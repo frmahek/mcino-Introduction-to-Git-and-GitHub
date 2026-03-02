@@ -1,0 +1,16 @@
+$ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+
+$ git add README.md
+$ git commit -m "fix typo"
+[bug-fix-typo 82ad3f1] fix typo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge bug-fix-typo
+Updating ad95b0a..82ad3f1
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
